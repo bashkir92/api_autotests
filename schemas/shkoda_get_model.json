@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "full_title": {
+      "type": "string"
+    },
+    "pic": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "code",
+    "model",
+    "full_title",
+    "pic"
+  ]
+}
